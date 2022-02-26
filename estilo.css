@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+:root{
+  --cor1:#fbc500;
+  --cor2:#7A6000;
+  --cor3:#FBD54B;
+  --cor4:#7A6825;
+  --cor5:#C79C00;
+  --cor6:#f1f0f0;
+  --cor7:#222222;
+  
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Open Sans',sans-serif;
+  font-size: 62.5%;
+}
+
+body{
+  margin: 0 ;
+  width: 100%;
+  background-color: var(--cor6);
+  color: var(--cor7);
+  font-size: 1.6rem;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  width: 98%;
+  margin: 2rem auto;
+}
+.logo{
+width: 40rem;
+
+}
+.menu-li{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  
+}
+.menu-li li a{
+  text-decoration: none;
+  color: var(--cor7);
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-top: 4rem;
+
+}
+.menu-li li a:hover{
+  color: var(--cor1);
+  border-top: 0.5rem solid #fbc500 ;
+  
+}
+.nav-topo{
+  display: flex;
+  gap: 4rem;
+
+}
+.nav-cj{
+  text-decoration: none;
+  color: var(--cor7);
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: var(--cor3);
+  width: 16rem;
+  height: 3rem;
+  text-align: center;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+.hero{
+  background-color: #fafafa;
+  background-image: linear-gradient(rgba(34, 34, 34, 0.7),rgba(61, 61, 61, 0.7)),url(imagens/com\ oculos\ e\ jornal.jpg);
+  height: 50rem;
+  background-position: center;
+  display: flex;
+  flex-direction: column;align-items: center;
+  gap: 6rem;
+  color: var(--cor6);
+  justify-content: center;
+  background-size: cover;
+
+  
+}
+.hero h2{
+  color: var(--cor6);
+  font-size:4.8rem;
+  text-align: center;
+
+}
+.hero p{
+  color: var(--cor6);
+  font-size: 1.8rem;
+}
+.cf{
+  background-color: rgba(128, 128, 128, 0.993);
+  color: var(--cor6);
+  padding: .5rem;
+}
+.botoes-hero{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+ 
+  
+}
+/*agendamento*/
+.agendamento{
+  max-width: 120rem;
+  background-color:#fafafafa;
+  margin: -5rem auto 0 auto;
+  display: flex;
+  box-shadow: 0px 0px 15px 5px rgb(0,0 , 0,.1);
+  border-radius: .5rem;
+  
+}
+.lado-img{
+  width: 30%;
+  background-color: var(--cor3);
+  
+  
+}
+.lado-img img{
+ width: 65rem;
+ margin-top: 8rem;
+}
+.lado-form h2{
+ font-size: xx-large;
+ padding: 0 4rem 0 10rem;
+  
+}
+.agen-depois{
+  display: none; 
+ }
+.lado-form{
+  
+
+}
+.op-ago{
+  display: flex;
+  gap: 1rem;
+  color: var(--cor3);
+  font-weight: 700;
+  padding: 0 12rem;
+}
+.op-agen{
+  display: flex;
+  gap: 1rem;
+  color: var(--cor7);
+  font-weight: 700;
+}
+.org{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 10rem 31rem 0 31rem;
+}
+.input-field{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  position: relative;
+
+}
+.input{
+  border: none;
+outline: none;
+padding: 1rem;
+border-radius: 1rem;
+
+font-family: inherit;
+box-shadow:  1px 3px 1px var(--cor3);
+}
+.input.sub.nav-cj{
+  position: absolute;
+  left: 16rem;
+ top: 18rem;
+ width: 10rem;
+ height: 4rem;
+}
+/*como funciona*/
+.como-funciona{
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+padding-top: 10rem;
+gap: 5rem;
+  
+}
