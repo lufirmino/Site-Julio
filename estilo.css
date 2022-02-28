@@ -25,7 +25,7 @@ html{
 body{
   margin: 0 ;
   width: 100%;
-  background-color: var(--cor6);
+  background-color: #fafafa;
   color: var(--cor7);
   font-size: 1.6rem;
 }
@@ -117,13 +117,15 @@ width: 40rem;
 }
 /*agendamento*/
 .agendamento{
-  max-width: 120rem;
-  background-color:#fafafafa;
+  max-width: 110rem;
+  background-color:#fafafa;
   margin: -5rem auto 0 auto;
   display: flex;
   box-shadow: 0px 0px 15px 5px rgb(0,0 , 0,.1);
   border-radius: .5rem;
-  
+ align-items: center;
+  margin-bottom: 10rem;
+  padding: 2rem;
 }
 .lado-img{
   width: 30%;
@@ -133,7 +135,8 @@ width: 40rem;
 }
 .lado-img img{
  width: 65rem;
- margin-top: 8rem;
+ margin-left: -6rem;
+ margin-top: 5rem;
 }
 .lado-form h2{
  font-size: xx-large;
@@ -164,7 +167,9 @@ width: 40rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  padding: 10rem 31rem 0 31rem;
+  padding: 0 0 5rem 25rem;
+  
+  
 }
 .input-field{
   display: grid;
@@ -188,6 +193,8 @@ box-shadow:  1px 3px 1px var(--cor3);
  top: 18rem;
  width: 10rem;
  height: 4rem;
+ 
+
 }
 /*como funciona*/
 .como-funciona{
@@ -196,6 +203,330 @@ box-shadow:  1px 3px 1px var(--cor3);
   flex-direction: column;
 align-items: center;
 padding-top: 10rem;
-gap: 5rem;
+padding-bottom: 10rem;
+gap: 2rem;
   
 }
+.como-funciona h2{
+  font-weight: 700;
+  font-size: 44px;
+  
+}
+.como-funciona p{
+  font-size: 14px;
+  font-weight: 700;
+
+}
+.cf1{
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: 20rem;
+ 
+}
+.icone{
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 10rem;
+}
+.icon-car{
+  position: relative;
+}
+
+.step-cf{
+  
+ 
+}
+.step-icon{
+padding-top: 10rem;
+
+}
+.grid1{
+  position: absolute;
+  top: 145rem;
+  left: 35rem;
+}
+.grid2{
+ position: absolute;
+ top: 158rem;
+ right: 35rem; 
+}
+.grid3{
+  position: absolute;
+  top: 184rem;
+  left: 35rem;
+}
+.grid4{
+position: absolute;
+top: 200rem;
+right: 35rem;
+  
+}
+.car1{
+  position: absolute;
+  top: -65rem;
+  right: 18rem;
+}
+.car2{
+  position: absolute; 
+  margin-top: -51rem;
+  right: 3rem;
+}
+.car3{
+  position: absolute;
+  margin-top: -26rem;
+  left: -3rem;
+}
+.car4{
+  position: absolute;
+  margin-top:-10rem;
+  right: -4rem;
+}
+/*tarifa*/
+.tarifa{
+  box-shadow: 0px 0px 15px 5px rgb(0,0 , 0,.1);
+}
+.tarifa h3{
+  text-align: center;
+  color: var(--cor3);
+  font-weight: 700;
+  padding-top: 5rem;
+  
+}
+.tar{
+  display: flex;
+  gap:.5rem ;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+.bairro{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10rem 8rem 5rem 8rem;
+  gap: 5rem;
+}
+.rs{
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+}
+.preco{
+  color: var(--cor3);
+  font-weight: 700;
+  font-size: 20px;
+}
+.rs p{
+  font-weight: 700;
+  font-size: 20px;
+}
+/*carros*/
+.carro h4{
+  color: var(--cor3);
+  text-align: center;
+  margin-top: 10rem;
+}
+h5{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: .3rem;
+}
+.carro{
+  background-color: #ffffff;
+ 
+}
+.giro img{
+  transform: scaleX(-1);
+}
+.onix{
+  display: flex;
+  gap: 10rem;
+  margin-top: 10rem;
+  justify-content: space-around;
+}
+.logochev{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.logochev p{
+text-align: center;
+font-weight: 800;
+font-size: 24px;
+}
+.box-chev{
+  width: 40rem;
+  height: 40rem;
+  background-color: #fbc500;
+  align-items: center;
+  padding: 2rem;
+}
+
+.icon{
+  display: flex;
+  gap: 5rem;
+  padding-top: 4rem;
+  justify-content: center;
+
+}
+.arcond{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+  background-image: linear-gradient(to bottom right,#ffde82,  #ffe7a6);
+  
+}
+.arcond p{
+  text-align: center;
+}
+.wifi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+  background-image: linear-gradient(to bottom right,#ffde82,  #ffe7a6);
+  
+}
+.wifi p{
+  text-align: center;
+}
+.airbag{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+  background-image: linear-gradient(to bottom right,#ffde82,  #ffe7a6);
+}
+.logovoy{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-top: .5rem;
+}
+.logovoy p{
+  text-align: center;
+font-weight: 800;
+font-size: 24px;
+}
+ 
+
+.box-voy{
+  width: 40rem;
+  height: 40rem;
+  background-color: #fbc500;
+  align-items: center;
+  padding: 2rem;
+}
+.voy{
+  display: flex;
+  justify-content: space-around;
+  
+}
+/*contato*/
+
+.contato{
+  max-width: 90rem;
+  background-color:var(--cor6);
+  width: 90rem;
+  height: 43.9rem;
+  box-shadow: 0px 0px 15px 5px rgb(0,0 , 0,.1);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.5rem;
+  
+  
+ } 
+.chamaju{
+  width: 30%;
+  background-color: var(--cor3);
+  position: relative;
+  display: flex;
+  column-gap: 10rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  
+}
+.contato{
+  margin-bottom: 10rem;
+}
+.chamaju1{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+.chamaju1 h2{
+  color: var(--cor7);
+
+}
+.chamaju1 h3{
+  font-size: 3rem;
+  color: var(--cor3);
+}
+.chamaju img{
+  width: 40rem;
+  height: 40rem;
+  margin-left: 7%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  top: 15%;
+  left: -25%;
+  
+
+}
+/*footer*/
+
+.end{
+  width: 100%;
+  height: 35rem;
+  color: var(--cor6);
+  background-color: var(--cor7);
+  box-shadow: 0px 0px 15px 5px rgb(0,0 , 0,.1);
+}
+.endereco{
+  width: 20rem;
+  height: 18rem;
+  line-height: 3rem;
+}
+.logfooter img{
+  width: 30rem;
+  filter: grayscale(.9);
+  margin-left: 5rem;
+}
+.logfooter div{
+  margin-left: 5rem;
+}
+.menu-lifoo li a{
+  text-decoration: none;
+  color: var(--cor6);
+  font-size: 1.8rem;
+  font-weight: 600;
+  
+  
+
+}
+ .nav-footer{
+   padding: 1rem 10rem;
+ }
+
+.menu-lifoo{
+  display: flex;
+  gap: 5rem;
+  color: var(--cor6);
+  justify-content: right;
+  margin-top: 5rem;
+  list-style: none;
+}
+.flex{
+  display: flex;
+  gap: 22rem;
+  margin-top: 2rem;
+}
+
+
+
