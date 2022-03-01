@@ -302,14 +302,19 @@ right: 35rem;
   font-weight: 700;
 }
 .bairro{
+  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 10rem 8rem 5rem 8rem;
   gap: 5rem;
-}
+  
+} 
 .rs{
   display: grid;
   grid-template-columns: 70fr 30fr;
+  border-bottom: 1px solid rgba(180 ,180 ,180 ,0.2);
+  padding-bottom: 3rem;
+  
 }
 .preco{
   color: var(--cor3);
@@ -320,6 +325,7 @@ right: 35rem;
   font-weight: 700;
   font-size: 20px;
 }
+
 /*carros*/
 .carro h4{
   color: var(--cor3);
