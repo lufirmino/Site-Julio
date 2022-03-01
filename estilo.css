@@ -73,11 +73,16 @@ width: 40rem;
   font-size: 1.8rem;
   font-weight: 600;
   background-color: var(--cor3);
-  width: 16rem;
-  height: 3rem;
+  width: 18rem;
+  height: 4rem;
   text-align: center;
   padding: .5rem;
   border-radius: .5rem;
+}
+
+.nav-cj:hover{
+  background-color: #383838;
+  color: #fafafa;
 }
 .hero{
   background-color: #fafafa;
@@ -112,7 +117,7 @@ width: 40rem;
   display: flex;
   align-items: center;
   gap: 3rem;
- 
+ padding-bottom:7rem;
   
 }
 /*agendamento*/
@@ -187,12 +192,12 @@ border-radius: 1rem;
 font-family: inherit;
 box-shadow:  1px 3px 1px var(--cor3);
 }
-.input.sub.nav-cj{
+.input.botao.nav-cj{
   position: absolute;
-  left: 16rem;
- top: 18rem;
- width: 10rem;
- height: 4rem;
+  left: 12rem;
+  top: 18rem;
+  padding: .6rem;
+ 
  
 
 }
@@ -230,8 +235,11 @@ gap: 2rem;
   width: 10rem;
   height: 10rem;
 }
+.car-step{
+}
 .icon-car{
   position: relative;
+ 
 }
 
 .step-cf{
@@ -240,47 +248,50 @@ gap: 2rem;
 }
 .step-icon{
 padding-top: 10rem;
-
+position: relative;
+}
+.passo{
+  position: relative;
 }
 .grid1{
   position: absolute;
-  top: 145rem;
-  left: 35rem;
+  top: -70rem;
+  left: -25rem;
 }
 .grid2{
  position: absolute;
- top: 158rem;
- right: 35rem; 
+ top: -55rem;
+ right: -30rem; 
 }
 .grid3{
   position: absolute;
-  top: 184rem;
-  left: 35rem;
+  top: -29rem;
+  right: 45rem;
 }
 .grid4{
 position: absolute;
-top: 200rem;
-right: 35rem;
+top: -10rem;
+right: -33rem;
   
 }
 .car1{
   position: absolute;
   top: -65rem;
-  right: 18rem;
+  right: 17rem;
 }
 .car2{
   position: absolute; 
-  margin-top: -51rem;
+  margin-top: -50rem;
   right: 3rem;
 }
 .car3{
   position: absolute;
   margin-top: -26rem;
-  left: -3rem;
+  right: 26rem;
 }
 .car4{
   position: absolute;
-  margin-top:-10rem;
+  margin-top:-7rem;
   right: -4rem;
 }
 /*tarifa*/
@@ -355,12 +366,15 @@ h5{
   display: flex;
   align-items: center;
   gap: 1rem;
+  
 }
 .logochev p{
 text-align: center;
 font-weight: 800;
 font-size: 24px;
+
 }
+
 .box-chev{
   width: 40rem;
   height: 40rem;
@@ -413,6 +427,7 @@ font-size: 24px;
   align-items: center;
   gap: 2rem;
   padding-top: .5rem;
+  padding-bottom: 1rem;
 }
 .logovoy p{
   text-align: center;
@@ -530,7 +545,7 @@ font-size: 24px;
 }
 .flex{
   display: flex;
-  gap: 22rem;
+  gap: 10rem;
   margin-top: 2rem;
 }
 
