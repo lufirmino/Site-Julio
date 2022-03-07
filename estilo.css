@@ -71,13 +71,13 @@ width: 40rem;
   text-decoration: none;
   color: var(--cor7);
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 500;
   background-color: var(--cor3);
   width: 18rem;
   height: 4rem;
   text-align: center;
-  padding: .5rem;
-  border-radius: .5rem;
+  padding:.5rem;
+  border-radius: .3rem;
 }
 
 .nav-cj:hover{
@@ -102,11 +102,15 @@ width: 40rem;
   color: var(--cor6);
   font-size:4.8rem;
   text-align: center;
+  font-weight: 600;
+  
 
 }
 .hero p{
   color: var(--cor6);
   font-size: 1.8rem;
+  font-weight: 600;
+  
 }
 .cf{
   background-color: rgba(128, 128, 128, 0.993);
@@ -151,10 +155,7 @@ width: 40rem;
 .agen-depois{
   display: none; 
  }
-.lado-form{
-  
 
-}
 .op-ago{
   display: flex;
   gap: 1rem;
@@ -172,9 +173,7 @@ width: 40rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  padding: 0 0 5rem 25rem;
-  
-  
+  padding: 0 0 5rem 25rem; 
 }
 .input-field{
   display: grid;
@@ -188,15 +187,20 @@ width: 40rem;
 outline: none;
 padding: 1rem;
 border-radius: 1rem;
-
 font-family: inherit;
 box-shadow:  1px 3px 1px var(--cor3);
 }
 .input.botao.nav-cj{
   position: absolute;
-  left: 12rem;
+  left: 15rem;
   top: 18rem;
-  padding: .6rem;
+  padding: auto;
+  box-shadow: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:1.8rem;
+  font-weight: 700;
+  width: 13rem;
+  border-radius: .2rem;
  
  
 
@@ -235,16 +239,8 @@ gap: 2rem;
   width: 10rem;
   height: 10rem;
 }
-.car-step{
-}
 .icon-car{
   position: relative;
- 
-}
-
-.step-cf{
-  
- 
 }
 .step-icon{
 padding-top: 10rem;
@@ -310,8 +306,9 @@ right: -33rem;
   gap:.5rem ;
   justify-content: center;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 500;
 }
+
 .bairro{
   
   display: grid;
@@ -325,23 +322,26 @@ right: -33rem;
   grid-template-columns: 70fr 30fr;
   border-bottom: 1px solid rgba(180 ,180 ,180 ,0.2);
   padding-bottom: 3rem;
-  
 }
+.p-bairro p{
+  font-size: rem;
+}
+
 .preco{
   color: var(--cor3);
   font-weight: 700;
   font-size: 20px;
 }
+
 .rs p{
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
 }
-
 /*carros*/
 .carro h4{
   color: var(--cor3);
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
   padding: 1rem;
 }
 h5{
@@ -349,6 +349,17 @@ h5{
   font-weight: 700;
   text-align: center;
   margin-top: .3rem;
+}
+
+.font-p{
+  font-weight: 600;
+  
+}
+.p-chev{
+padding-top: .5rem;
+}
+.p-voy{
+  padding: 1rem;
 }
 .carro{
   background-color: #ffffff;
@@ -367,7 +378,8 @@ h5{
   display: flex;
   align-items: center;
   gap: 1rem;
-  
+  border-bottom: 1px solid rgba(34 ,34 ,34 ,0.2);
+  margin-top: .5rem;
 }
 .logochev p{
 text-align: center;
@@ -377,71 +389,82 @@ font-size: 24px;
 }
 
 .box-chev{
-  width: 40rem;
+  width: 38rem;
   height: 40rem;
   background-color: #fbc500;
   align-items: center;
-  padding: 2rem;
+  padding: .5rem 2rem .5rem 2rem;
   border-radius: .5rem;
+}
+.space{
+  padding: 1rem;
 }
 
 .icon{
   display: flex;
-  gap: 5rem;
-  padding-top: 4rem;
+  gap: 2rem;
+  padding-top: 1rem;
   justify-content: center;
 
 }
-.arcond{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 8rem;
-  height: 8rem;
-  background-image: linear-gradient(to bottom right,#ffde82,  #ffe7a6);
-  
-}
-.arcond p{
-  text-align: center;
+.voy{
+  margin-bottom: 1rem;
 }
 .wifi{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 8rem;
-  height: 8rem;
+  width: 9rem;
+  height: 9rem;
   background-image: linear-gradient(to bottom right,#ffde82,  #ffe7a6);
+  border-radius: .5rem;
+  padding: .5rem;
   
 }
-.wifi p{
+.arcond{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 9rem;
+  height: 9rem;
+  background-image: linear-gradient(to bottom right,#ffde82,  #ffe7a6);
+  border-radius: .5rem;
+  padding: .5rem;
+  
+}
+.arcond p{
   text-align: center;
 }
+
 .airbag{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 8rem;
-  height: 8rem;
+  width: 9rem;
+  height: 9rem;
   background-image: linear-gradient(to bottom right,#ffde82,  #ffe7a6);
+  border-radius: .5rem;
+  padding: .5rem;
 }
 .logovoy{
   display: flex;
   align-items: center;
   gap: 2rem;
-  padding-top: .5rem;
-  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(34 ,34 ,34 ,0.2);
+  padding: .5rem 0 ;
+  
 }
 .logovoy p{
-  text-align: center;
+padding: 1.5rem 1rem 0 1rem ;
 font-weight: 800;
 font-size: 24px;
 }
  
 
 .box-voy{
-  width: 40rem;
-  height: 40rem;
-  background-color: #fbc500;
+  width: 38rem;
+  height: 45rem;
+  background-color: #fbc500 ;
   align-items: center;
   padding: 2rem;
   border-radius: .5rem;
@@ -479,6 +502,8 @@ font-size: 24px;
   margin-bottom: 10rem;
 }
 .chamaju1{
+  padding: 6rem;
+  width: 30rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -489,7 +514,7 @@ font-size: 24px;
 
 }
 .chamaju1 h3{
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--cor3);
 }
 .chamaju img{
@@ -513,12 +538,22 @@ font-size: 24px;
   background-color: var(--cor7);
   box-shadow: 0px 0px 15px 5px rgb(0,0 , 0,.1);
 }
-.endreço{
+.endereco{
+display: flex;
+flex-direction: column;
+justify-content: left;
+gap: 2rem;
 
 }
 .logfooter img{
-  width: 30rem;
+  width: 25rem;
   filter: grayscale(.9);
+}
+.logfooter{
+  margin-left: 2rem;
+}
+.copy{
+  font-size: 10px;
 }
 .menu-lifoo a{
   text-decoration: none;
@@ -528,10 +563,16 @@ font-size: 24px;
 }
 .menu-lifoo{
   display: flex;
-  gap: 5rem;
+  gap: 2rem;
   list-style: none;
   justify-content: right;
-  padding: 3rem;
+  padding: 8rem 3rem 0 0;
+}
+.log-end{
+  display: flex;
+  flex-direction: row;
+ gap: 10rem;
+margin-bottom:1rem ;
 }
 
 
